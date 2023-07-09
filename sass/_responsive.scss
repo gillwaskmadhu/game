@@ -1,0 +1,357 @@
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+
+    .navbar {
+
+        top: 0;
+        background-color: black;
+
+        .navbar-nav {
+            align-items: flex-start;
+        }
+    }
+
+    .banner {
+        height: 50vh;
+        position: static;
+
+        video {
+            height: 50vh;
+            object-fit: cover;
+        }
+
+        .banner_det {
+            height: 50vh;
+
+            h2 {
+                font-size: 2rem;
+                line-height: 41px;
+            }
+        }
+    }
+
+    .dummy {
+        display: none;
+    }
+
+    .art {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .box {
+            img {
+                display: none;
+            }
+        }
+
+        .port_details {
+            padding-right: 0;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .games {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .slider_hed {
+            h2 {
+                font-size: 2.5rem;
+            }
+
+        }
+    }
+
+    .career {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .left_adv {
+            padding: 0;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+
+        .adv_cen {
+            .rght_adv {
+                padding: 27px 0;
+            }
+        }
+    }
+
+    .portfolio {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .port_details {
+            padding-right: 0;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .news {
+        height: auto;
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 0;
+
+        .news_hed {
+            .partners {
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .vid_wrap {
+            video {
+                height: 50vh;
+            }
+        }
+
+        .black_bk {
+            display: none;
+        }
+    }
+
+    .support {
+        height: auto;
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 0;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .foot_wrap {
+            .searchbox-wrap {
+                width: 100%;
+
+                button {
+                    span {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+
+        .row {
+            .foot_2 {
+                padding: 30px 20px;
+            }
+        }
+    }
+
+    .news_fx,
+    .portfolio_fx,
+    .career_fx,
+    .games_fx,
+    .art_fx,
+    .support_fx {
+        position: relative;
+        top: auto;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+
+        top: 0;
+        background-color: black;
+
+        .navbar-nav {
+            align-items: flex-start;
+        }
+    }
+
+    .banner {
+        height: 50vh;
+        position: static;
+
+        video {
+            height: 50vh;
+            object-fit: cover;
+        }
+
+        .banner_det {
+            height: 50vh;
+
+            h2 {
+                font-size: 2rem;
+                line-height: 41px;
+            }
+        }
+    }
+
+    .dummy {
+        display: none;
+    }
+
+    .art {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .box {
+            img {
+                display: block;
+                width: 500px;
+                height: auto;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+
+        .port_details {
+            padding-right: 0;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                width: 60%;
+            }
+        }
+    }
+
+    .games {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .slider_hed {
+            h2 {
+                font-size: 2.5rem;
+            }
+
+        }
+    }
+
+    .career {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .left_adv {
+            padding: 0;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+
+        .adv_cen {
+            .rght_adv {
+                padding: 27px 0;
+            }
+        }
+    }
+
+    .portfolio {
+        height: auto;
+        position: relative;
+        padding: 3rem 0rem;
+
+        .port_details {
+            padding-right: 0;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .news {
+        height: auto;
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 0;
+
+        .news_hed {
+            .partners {
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .vid_wrap {
+            video {
+                height: 50vh;
+            }
+        }
+
+        .black_bk {
+            display: none;
+        }
+    }
+
+    .support {
+        height: auto;
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 0;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .foot_wrap {
+            .searchbox-wrap {
+                width: 100%;
+
+                button {
+                    span {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+
+        .row {
+            .foot_2 {
+                padding: 30px 20px;
+            }
+        }
+    }
+
+    .news_fx,
+    .portfolio_fx,
+    .career_fx,
+    .games_fx,
+    .art_fx,
+    .support_fx {
+        position: relative;
+        top: auto;
+    }
+
+}
